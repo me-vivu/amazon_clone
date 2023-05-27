@@ -115,7 +115,6 @@ class AuthService {
         userProvider.setUser(userRes.body);
       }
     } catch (e) {
-      showSnackBar(context, 'getting error');
       showSnackBar(context, e.toString());
     }
   }
